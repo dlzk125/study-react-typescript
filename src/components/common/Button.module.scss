@@ -1,0 +1,31 @@
+.btn_icon {
+  width: 14px;
+  height: 14px;
+}
+
+.btn_primary {
+  display: inline-block;
+  min-width: 64px;
+  height: 34px;
+  padding: 0 8px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 34px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  vertical-align: top;
+  text-align: center;
+  text-decoration: none;
+  color: #4c4c4c;
+  background: #ffdd00;
+
+  &:hover {
+    background: #e5c700;
+  }
+
+  &:disabled {
+    color: #ccc;
+    background: #fffce5;
+    cursor: not-allowed;
+  }
+}

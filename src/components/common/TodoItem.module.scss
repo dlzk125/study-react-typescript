@@ -1,0 +1,30 @@
+.list_item {
+  &.complete {
+    display: block;
+    background: #e3e3e3;
+    opacity: .5;
+    > p {
+      text-decoration: line-through;
+    }
+  }
+  > p {
+    float: left;
+    line-height: 50px;
+    margin-right: 10px;
+  }
+  .wrap_btn {
+    float: right;
+  }
+  :global {
+    .item_form {
+      float: left;
+      height: 34px;
+      margin-top: 8px;
+    }
+    .btn_icon {
+      margin: 18px 8px 0 0;
+      font-size: 0;
+      vertical-align: top;
+    }
+  }
+}

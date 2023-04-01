@@ -1,0 +1,38 @@
+.tab_basic {
+  position: relative;
+  &::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #b3b3b3;
+    content: '';
+  }
+  .list_tab {
+    font-size: 0;
+    line-height: 0;
+  }
+  li {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .link_tab {
+    display: block;
+    min-width: 80px;
+    padding: 4px 16px 2px;
+    border-bottom: 2px solid transparent;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #1a1a1a;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    word-break: break-all;
+  }
+  .on {
+    position: relative;
+    z-index: 10;
+    border-bottom: 2px solid #1a1a1a;
+  }
+}

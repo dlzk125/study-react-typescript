@@ -1,0 +1,39 @@
+.content_todo {
+  width: 70%;
+  margin: 15px auto 0;
+}
+.wrap_add {
+  display: flex;
+  overflow: hidden;
+  margin-top: 16px;
+  :global {
+    .item_form {
+      width: 100%;
+    }
+    .btn_primary {
+      float: right;
+      margin-left: 10px;
+    }
+  }
+}
+.no_data {
+  display: flex;
+  height: 300px;
+  font-size: 16px;
+  color: #919191;
+  justify-content: center;
+  align-items: center;
+}
+.list_todo {
+  display: block;
+  li {
+    display: block;
+    overflow: hidden;
+    padding: 0 10px;
+    margin-top: 15px;
+    font-size: 14px;
+    border: 1px solid #e3e3e3;
+    border-radius: 15px;
+    line-height: 50px;
+  }
+}

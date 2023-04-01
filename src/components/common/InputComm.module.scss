@@ -1,0 +1,23 @@
+.item_form {
+  .tf_comm {
+    display: inline-block;
+    width: 100%;
+    padding: 6px 15px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #3c3c3c;
+    background-color: #fff;
+    text-align: left;
+    line-height: 20px;
+    vertical-align: top;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    appearance: none;
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+    }
+  }
+}
